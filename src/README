@@ -1,0 +1,12 @@
+input.param is the input parameter file.
+***********************************************************************************************
+first line is the name of crossmatch file.
+second line is the number of catalogs followed by metadata for each catalog.
+*************METADATA******************************
+first line of metadata is name of the catalog.
+second line contains the number of columns to be included in the output.
+third line contains the column numbers.
+fourth line contains the number of photometric values in the catalog.
+fifth line contains the indices of columns which corresponds to the photometric values.
+**********************************************************************************************
+just run the command ./pipeline.sh
